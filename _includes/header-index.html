@@ -16,9 +16,15 @@
 
         <ul class="pure-menu-list">
         	{% capture location %}{{ page.url }}{% endcapture %}
-            {% for page in site.pages %}
+            {% for page in site.pages reversed %}
 				<li class="pure-menu-item {% if location == post.url %}pure-menu-selected{% endif %}"><a href="{{ page.url }}" class="pure-menu-link">{{ page.title }}</a></li>
 			{% endfor %}
+			<li class="pure-menu-item"><a class="github-button pure-menu-link" href="https://github.com/deepakbansal/algomash-jekyll" data-icon="octicon-star" data-style="mega" data-count-href="/deepakbansal/algomash-jekyll/stargazers" data-count-api="/repos/deepakbansal/algomash-jekyll#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star deepakbansal/algomash-jekyll on GitHub">Star</a></li>
+
+			<li class="pure-menu-item"><a class="github-button pure-menu-link" href="https://github.com/deepakbansal/algomash-jekyll/fork" data-icon="octicon-git-branch" data-style="mega" data-count-href="/deepakbansal/algomash-jekyll/network" data-count-api="/repos/deepakbansal/algomash-jekyll#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork deepakbansal/algomash-jekyll on GitHub">Fork</a></li>
+
+			<li class="pure-menu-item"><a class="github-button pure-menu-link" href="https://github.com/deepakbansal/algomash-jekyll/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download deepakbansal/algomash-jekyll on GitHub">Download</a></li>
+
         </ul>
     </div>
 </div>

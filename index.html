@@ -62,7 +62,8 @@ title: Home
 
     <div class="ribbon l-box-lrg pure-g">
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="{{ site.assets }}img/common/file-icons.png">
+            <a href="https://github.com/deepakbansal/algomash-jekyll"><img class="pure-img-responsive" alt="File Icons" width="300" src="{{ site.assets }}img/common/file-icons.png"></a>
+           
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
@@ -80,35 +81,27 @@ title: Home
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
-
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" placeholder="Your Name">
-
-
-                        <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
-
-                        <label for="password">Your Password</label>
-                        <input id="password" type="password" placeholder="Your Password">
-
-                        <button type="submit" class="pure-button">Sign Up</button>
-                    </fieldset>
-                </form>
+                <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=419661974898949";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-page" data-href="https://www.facebook.com/cogeek.org" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cogeek.org"><a href="https://www.facebook.com/cogeek.org">CoGeek</a></blockquote></div></div>
             </div>
 
             <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                <h4>Contact Me</h4>
+                <h4>About Me</h4>
                 <p>
-                   Hi, I am Deepak Bansal, Computer Science student, Web developer and WordPress expert. I love photography and graphic designing. When bored in class, I write poetry.
+                   Hi, I am <a href="http://deepak.tech">Deepak Bansal</a>, Computer Science student, Web developer and WordPress expert. I love photography and graphic designing. When bored in class, I write poetry.
 
                    I code in HTML5, CSS3, PHP, MySQL, JavaScript and jQuery on Ubuntu and Windows. I'm an intermediate in Laravel and a beginner in Adobe Illustrator and Photoshop. I'm also learning Ruby on Rails.
                 </p>
-
-                <h4>More Information</h4>
                 <p>
-                    For anything else, feel free to <a href="http://deepak.tech">visit my homepage</a> and <a href="http://cogeek.org">my blog</a>.
+                    <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/deepakbansal" data-style="mega" data-count-href="/deepakbansal/followers" data-count-api="/users/deepakbansal#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @deepakbansal on GitHub">Follow @deepakbansal</a>
                 </p>
             </div>
         </div>
