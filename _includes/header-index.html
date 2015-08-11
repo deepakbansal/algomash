@@ -1,0 +1,24 @@
+{% include header.html %}
+	<!--[if lte IE 8]>
+	    <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+	    <link rel="stylesheet" href="{{ site.assets }}css/layouts/marketing.css">
+	<!--<![endif]-->
+
+
+</head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="{{ site.url }}">{{ site.title }}</a>
+
+        <ul class="pure-menu-list">
+        	{% capture location %}{{ page.url }}{% endcapture %}
+            {% for page in site.pages %}
+				<li class="pure-menu-item {% if location == post.url %}pure-menu-selected{% endif %}"><a href="{{ page.url }}" class="pure-menu-link">{{ page.title }}</a></li>
+			{% endfor %}
+        </ul>
+    </div>
+</div>

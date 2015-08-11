@@ -1,4 +1,11 @@
-# Algomash
+---
+layout: post
+title: Getting Started
+category: docs
+excerpt: Easiest way to write documentation website
+---
+
+## Algomash
 
 Wanna write a documentation website for your project... And feeling dull to install and create a lot of pages and configure settings and servers... in (you guessed it) WordPress or some Wiki software?
 
@@ -13,3 +20,9 @@ If you're developing a project like... umm... let's write in bullets:
 * Your project - in fact documentation needs lesser features, in fact, just text.
 * You're willing to configure a few things in your code editor.
 * You're happy to write some CSS or shift some HTML classes so that you get a look you want.
+
+## Who's Algomash NOT for?
+
+* For developers coding a CMS
+* For developers coding an OS
+* If you want Wiki specific features.
