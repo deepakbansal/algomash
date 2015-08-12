@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   
-  	<title>{{ page.title }} - {% if page.category %}{{ page.category }}{{% endif %} | {{ site.title }}</title>
+  	<title>{{ site.title }}{% if page.category %} - {{ page.category }}{% else %} - {{ site.tagline }}{% endif %} - {{ page.title }}</title>
 
 	<!-- Pure.css -->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">

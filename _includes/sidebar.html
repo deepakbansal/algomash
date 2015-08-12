@@ -6,10 +6,14 @@
 
     <div id="menu">
         <div class="pure-menu">
-
-            {% if page.category %}
-            <a class="pure-menu-heading" href="{{ site.url }}/{{ page.category }}">{{ page.category }}</a>
-            {% endif %}
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item menu-item-divided"><a href="{{ site.url }}" class="pure-menu-link">{{ site.title }}</a></li>
+            </ul>
+            {% for category in site.data.categories %}
+                {% if page.category %}
+                    <a class="pure-menu-heading" href="{{ site.url }}/{{ page.category }}">{% if category.slug == page.category %}{{ category.name }}{% endif %}</a>
+                {% endif %}
+            {% endfor %}
 
             {% capture location %}{{ page.url }}{% endcapture %}
 
