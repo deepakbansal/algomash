@@ -28,6 +28,11 @@ In this file under the `## Setup` (line 9), you'll find 5 settings. That's all y
 * **url**: Change this to your site URL. If you're developing locally on your machine for now, use **http://localhost:4000** as this is where Jekyll will run the server.
 * **assets**: By default, Algomash uses a folder with name `assets` where all the resources like CSS, JS and images are stored in respective directories. You can rename the folder to something else, like `data` if you want. Also, update the site URL here too.
 
+## Add Google Analytics Code
+{: .content-subhead }
+
+You can add Google Analytics tracking code in `_includes/google-analytics.html` file.
+
 ## Start the server
 {: .content-subhead }
 
