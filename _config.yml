@@ -10,8 +10,8 @@ collections: null
 title: 'Algomash'
 tagline: 'Create Documentation Website Using Jekyll'
 description: 'Algomash is a Jekyll boilerplate with necessary operations for creating Documentation website for small projects.'
-url: http://localhost:4000
-assets: http://localhost:4000/assets/
+url: http://algomash.com
+assets: http://algomash.com/assets/
 
 # Handling Reading
 safe:         false
