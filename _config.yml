@@ -10,7 +10,7 @@ collections: null
 title: 'Algomash'
 tagline: 'Create Documentation Website Using Jekyll'
 description: 'Algomash is a Jekyll boilerplate with necessary operations for creating Documentation website for small projects.'
-url: http://db.fyi/algomash/
+url: http://db.fyi/algomash
 assets: http://db.fyi/algomash/assets/
 
 # Handling Reading
