@@ -47,3 +47,5 @@ kramdown:
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+theme: jekyll-theme-dinky
